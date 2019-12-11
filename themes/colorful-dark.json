@@ -766,11 +766,16 @@
 		{
 			"scope": [
 				"constant",
-				"constant.numeric",
 				"support.constant"
 			],
 			"settings": {
 				"foreground": "#d68b6e"
+			}
+		},
+		{
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#e05578"
 			}
 		},
 		{
@@ -811,6 +816,12 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.typst",
+			"settings": {
+				"foreground": "#c4c4c4"
+			}
+		},
+		{
 			"scope": "string",
 			"settings": {
 				"foreground": "#7cbd6c"
@@ -834,6 +845,12 @@
 			"settings": {
 				"foreground": "#64a3eb",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.raw.inline",
+			"settings": {
+				"foreground": "#818181",
 			}
 		},
 		{
