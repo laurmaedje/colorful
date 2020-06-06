@@ -1,0 +1,67 @@
+{
+    "comment": [
+        "comment",
+        "punctuation.definition.comment"
+    ],
+
+    "keyword": "keyword",
+    "type-keyword": "storage.type",
+    "type-modifier": "storage.modifier",
+    "operator": "keyword.operator",
+
+    "type": [
+        "entity.name.type",
+        "entity.other.inherited-class"
+    ],
+    "func": ["entity.name.function", "variable.function"],
+    "macro": "entity.name.function.macro",
+    "attr": [
+        "entity.other.attribute-name",
+        "entity.name.function.attribute",
+        "meta.attribute.rust",
+        "meta.preprocessor"
+    ],
+    "tag": ["entity.name.tag", "entity.name.section"],
+
+    "variable": "variable",
+    "parameter": "variable.parameter",
+    "self-and-this": "variable.language",
+
+    "const": [
+        "constant",
+        "variable.other.constant"
+    ],
+    "num": "constant.numeric",
+    "bool": "constant.language.boolean",
+    "string": "string",
+    "string-escape": "constant.character.escape",
+    "char": "string.quoted.single",
+
+    "lang-type": [
+        "support.type.python",
+        "storage.type.core.rust",
+        "storage.class.std",
+        "storage.type.built-in",
+        "storage.type.primitive",
+        "entity.name.type.core.rust",
+        "entity.name.type.class.std.rust"
+    ],
+    "lang-const": ["constant.language", "support.constant"],
+    "lang-func": "support.function",
+
+    "bold": "markup.bold",
+    "italic": "markup.italic",
+    "raw": "markup.raw",
+
+    "rs-lifetime": "storage.modifier.lifetime.rust",
+    "rs-generics": "meta.type_params.rust",
+    "rs-lang-trait": [
+        "support.type.core.rust",
+        "support.type.marker.rust",
+        "support.type.std.rust"
+    ],
+
+    "typ-punctuation": "punctuation",
+    "typ-parameter": "variable.parameter.typst",
+    "typ-linebreak": "punctuation.delimiter.linebreak.typst"
+}
