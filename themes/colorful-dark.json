@@ -32,7 +32,10 @@
     "rs-lifetime": "#CEA553",
     "rs-generics": "#c07ad1",
     "rs-lang-trait": "#56B6C2",
+
+    "typ-parameter": "#6ac5c5",
+    "typ-identifier": "#e45c68",
+    "typ-bool": "#f18e54",
     "typ-punctuation": "#56B6C2",
-    "typ-parameter": "#949392",
     "typ-linebreak": "#ca9940"
 }
