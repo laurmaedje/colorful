@@ -28,5 +28,9 @@
     "lang-func": "#118604",
     "rs-lifetime": "#b60157",
     "rs-generics": "#880000",
-    "rs-lang-trait": "#D73A49"
+    "rs-lang-trait": "#D73A49",
+
+    "typ-parameter": "#63205b",
+    "typ-punctuation": "#252525",
+    "typ-linebreak": "#b77a0a"
 }
