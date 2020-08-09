@@ -26,11 +26,14 @@
     "lang-type": "#D73A49",
     "lang-const": "#005CC5",
     "lang-func": "#118604",
+    "bold": "bold",
+    "italic": "italic",
+    "raw": "#818181",
     "rs-lifetime": "#b60157",
     "rs-generics": "#880000",
     "rs-lang-trait": "#D73A49",
 
-    "typ-parameter": "#63205b",
-    "typ-punctuation": "#252525",
-    "typ-linebreak": "#b77a0a"
+    "typ-key": "#63205b",
+    "typ-linebreak": "#b77a0a",
+    "typ-parameter": "#b60157"
 }

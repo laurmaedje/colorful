@@ -19,7 +19,7 @@
     "self-and-this": "#56B6C2",
     "const": "#CEA553",
     "num": "#CEA553",
-    "bool": "#56B6C2",
+    "bool": "#f18e54",
     "string": "#7CBD6C",
     "string-escape": "#56B6C2",
     "char": "#7CBD6C",
@@ -33,9 +33,6 @@
     "rs-generics": "#c07ad1",
     "rs-lang-trait": "#56B6C2",
 
-    "typ-parameter": "#c56a6a",
-    "typ-identifier": "#81b9ac",
-    "typ-bool": "#f18e54",
-    "typ-punctuation": "#bebebe",
-    "typ-linebreak": "#ca9940"
+    "typ-linebreak": "#ca9940",
+    "typ-parameter": "#81b9ac"
 }

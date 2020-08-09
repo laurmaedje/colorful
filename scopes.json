@@ -62,9 +62,16 @@
     ],
 
     "typ-bool": "constant.language.boolean.typst",
+    "typ-const": [
+        "constant.numeric.length.typst",
+        "constant.numeric.float.typst",
+        "constant.numeric.color.typst"
+    ],
+    "typ-key": "entity.name.key.typst",
     "typ-parameter": "variable.parameter.typst",
-    "typ-identifier": "variable.other.constant.typst",
+    "typ-variable": "variable.other.typst",
     "typ-punctuation": "punctuation.definition.bracket.typst",
-    "typ-linebreak": "punctuation.delimiter.linebreak.typst"
+    "typ-linebreak": "punctuation.delimiter.linebreak.typst",
+    "typ-typeset-func": "entity.name.function.typesetting.typst",
+    "typ-compute-func": "entity.name.function.computing.typst"
 }
-
