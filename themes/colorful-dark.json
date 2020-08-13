@@ -4,35 +4,46 @@
     "base": "macos-dark",
     "foreground": "#BEBEBE",
     "background": "#242424",
+
     "comment": "#717988",
+
     "keyword": "#e06c75",
     "type-keyword": "#56B6C2",
     "type-modifier": "#E06C75",
     "operator": "#DF7699",
+
     "type": "#e66b93",
     "func": "#68A4F1",
     "macro": "#55b465",
     "attr": "#CEA553",
     "tag": "#68A4F1",
+
     "variable": "#BEBEBE",
     "parameter": "#BEBEBE",
     "self-and-this": "#56B6C2",
+
     "const": "#CEA553",
     "num": "#CEA553",
-    "bool": "#f18e54",
     "string": "#7CBD6C",
     "string-escape": "#56B6C2",
     "char": "#7CBD6C",
+
     "lang-type": "#56B6C2",
     "lang-const": "#d68b6e",
     "lang-func": "#55b465",
+
     "bold": "bold",
-    "italic": "italic",
+    "italic": "#85b0e6 italic",
     "raw": "#818181",
+    "math": "#7CBD6C",
+    "section": "#85b0e6",
+
     "rs-lifetime": "#CEA553",
     "rs-generics": "#c07ad1",
     "rs-lang-trait": "#56B6C2",
 
-    "typ-linebreak": "#ca9940",
-    "typ-parameter": "#81b9ac"
+    "typ-keyarg": "#d89b71",
+    "typ-parameter": "#81b9ac",
+    "typ-interpolated": "#81b9ac",
+    "typ-punctuation": "#ca9940"
 }

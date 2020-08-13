@@ -64,7 +64,7 @@ def build_theme(path):
     new_colors = []
 
     for name, value in spec.items():
-        selected = scopes[name]
+        selected = scopes.get(name, name)
         settings = {}
 
         if value.startswith('#'):
