@@ -28,20 +28,21 @@
     "string-escape": "#56B6C2",
     "char": "#7CBD6C",
 
-    "lang-type": "#56B6C2",
+    "lang-type": "#EC8B64",
     "lang-const": "#d68b6e",
     "lang-func": "#55b465",
 
     "bold": "bold",
     "italic": "#85b0e6 italic",
     "raw": "#818181",
-    "math": "#7CBD6C",
+    "math": "#6cabb5",
     "section": "#85b0e6",
 
     "rs-lifetime": "#CEA553",
     "rs-generics": "#c07ad1",
-    "rs-lang-trait": "#56B6C2",
+    "rs-lang-trait": "#EC8B64",
 
+    "typ-func": "#7cbd6c",
     "typ-keyarg": "#d89b71",
     "typ-parameter": "#81b9ac",
     "typ-interpolated": "#81b9ac",

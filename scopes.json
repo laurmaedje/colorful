@@ -38,6 +38,7 @@
     "char": "string.quoted.single",
 
     "lang-type": [
+        "support.type.primitive",
         "support.type.python",
         "storage.type.core.rust",
         "storage.class.std",
@@ -51,7 +52,11 @@
 
     "bold": "markup.bold",
     "italic": "markup.italic",
-    "raw": "markup.raw",
+    "raw": [
+        "markup.raw",
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+    ],
     "math": "markup.math",
     "section": [
         "entity.name.section",
@@ -67,6 +72,7 @@
         "support.type.std.rust"
     ],
 
+    "typ-func": "entity.name.function.typst",
     "typ-keyarg": "variable.keyword-argument.typst",
     "typ-parameter": "variable.parameter.typst",
     "typ-interpolated": "variable.interpolated.typst",
