@@ -14,7 +14,11 @@
         "entity.other.inherited-class"
     ],
     "func": ["entity.name.function", "variable.function"],
-    "macro": "entity.name.function.macro",
+    "macro": [
+        "entity.name.function.preprocessor",
+        "entity.name.function.macro.rust",
+        "meta.macro.rust"
+    ],
     "attr": [
         "entity.other.attribute-name",
         "entity.name.function.attribute",
@@ -57,14 +61,14 @@
         "markup.inline.raw",
         "markup.fenced_code.block"
     ],
-    "math": "markup.math",
+    "math": "string.other.math",
     "section": [
         "entity.name.section",
         "punctuation.definition.list",
         "punctuation.definition.enum"
     ],
 
-    "rs-lifetime": "storage.modifier.lifetime.rust",
+    "rs-lifetime": "entity.name.type.lifetime.rust",
     "rs-generics": "meta.type_params.rust",
     "rs-lang-trait": [
         "support.type.core.rust",
@@ -72,14 +76,12 @@
         "support.type.std.rust"
     ],
 
-    "typ-func": "entity.name.function.typst",
-    "typ-keyarg": "variable.keyword-argument.typst",
     "typ-parameter": "variable.parameter.typst",
     "typ-interpolated": "variable.interpolated.typst",
     "typ-punctuation": [
-        "punctuation.delimiter.em-dash.typst",
-        "punctuation.delimiter.en-dash.typst",
-        "punctuation.delimiter.linebreak.typst",
-        "punctuation.delimiter.nonbreaking-space.typst"
+        "punctuation.definition.em-dash.typst",
+        "punctuation.definition.en-dash.typst",
+        "punctuation.definition.linebreak.typst",
+        "punctuation.definition.nonbreaking-space.typst"
     ]
 }

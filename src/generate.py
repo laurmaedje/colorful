@@ -1,4 +1,4 @@
-# vs code color scheme generator
+# VS Code color scheme generator
 
 from pathlib import Path
 import os
@@ -14,7 +14,7 @@ def main():
         path = f'themes/{filename}'
         label, kind, theme = build_theme(path)
 
-        print(label, kind)
+        print(label)
 
         with open(f'build/{path}', 'w') as file:
             json.dump(theme, file, indent=4)
@@ -26,9 +26,9 @@ def main():
         })
 
     package = {
-        'name': 'colorful-themes',
-        'displayName': 'Colorful Themes',
-        'description': 'Colorful themes.',
+        'name': 'colorful',
+        'displayName': 'Colorful',
+        'description': 'Dark and light colorful theme.',
         'version': '0.0.1',
         'engines': { 'vscode': '^1.35.0' },
         'categories': ['Themes'],
@@ -53,7 +53,7 @@ def build_theme(path):
     with open(f'base/{base}.json') as file:
         theme = json.load(file)
 
-    with open('scopes.json') as file:
+    with open('src/scopes.json') as file:
         scopes = json.load(file)
 
     theme['type'] = kind

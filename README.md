@@ -1,5 +1,5 @@
-# vscode-colorful
+# Colorful
 
-A theme with a dark & light variant tuned for Rust programming.
+A VS Code theme with a dark & light variant tuned for Rust programming.
 
-Run `python main.py` to create a `build` directory in which the extension is located.
+Run `python src/generate.py` to build the extension.

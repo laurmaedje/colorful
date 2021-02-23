@@ -1,34 +1,35 @@
 {
     "theme": "Colorful Dark",
     "kind": "dark",
-    "base": "macos-dark",
-    "foreground": "#BEBEBE",
+    "base": "github-dark",
+    "foreground": "#bebebe",
     "background": "#242424",
 
     "comment": "#717988",
 
     "keyword": "#e06c75",
-    "type-keyword": "#56B6C2",
-    "type-modifier": "#E06C75",
-    "operator": "#DF7699",
+    "type-keyword": "#56b6c2",
+    "type-modifier": "#e06c75",
+    "operator": "#df7699",
 
     "type": "#e66b93",
-    "func": "#68A4F1",
+    "func": "#68a4f1",
     "macro": "#55b465",
-    "attr": "#CEA553",
-    "tag": "#68A4F1",
+    "attr": "#cea553",
+    "tag": "#68a4f1",
 
-    "variable": "#BEBEBE",
-    "parameter": "#BEBEBE",
-    "self-and-this": "#56B6C2",
+    "variable": "#bebebe",
+    "parameter": "#bebebe",
+    "self-and-this": "#56b6c2",
 
-    "const": "#CEA553",
-    "num": "#CEA553",
-    "string": "#7CBD6C",
-    "string-escape": "#56B6C2",
-    "char": "#7CBD6C",
+    "const": "#cea553",
+    "num": "#cea553",
+    "bool": "#d68b6e",
+    "string": "#7cbd6c",
+    "string-escape": "#56b6c2",
+    "char": "#7cbd6c",
 
-    "lang-type": "#EC8B64",
+    "lang-type": "#ec8b64",
     "lang-const": "#d68b6e",
     "lang-func": "#55b465",
 
@@ -38,12 +39,11 @@
     "math": "#6cabb5",
     "section": "#85b0e6",
 
-    "rs-lifetime": "#CEA553",
+    "rs-lifetime": "#cea553",
     "rs-generics": "#c07ad1",
-    "rs-lang-trait": "#EC8B64",
+    "rs-lang-trait": "#ec8b64",
 
-    "typ-keyarg": "#d89b71",
     "typ-parameter": "#81b9ac",
-    "typ-interpolated": "#81b9ac",
+    "typ-interpolated": "#b081b9",
     "typ-punctuation": "#ca9940"
 }
