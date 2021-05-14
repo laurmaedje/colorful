@@ -43,7 +43,7 @@
     "rs-generics": "#c07ad1",
     "rs-lang-trait": "#ec8b64",
 
-    "typ-parameter": "#81b9ac",
+    "typ-parameter": "#a2a2a2",
     "typ-interpolated": "#b081b9",
     "typ-punctuation": "#ca9940"
 }
